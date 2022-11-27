@@ -3,6 +3,13 @@ import 'package:flutter/material.dart';
 import 'dart:developer';
 
 import 'shop_items.dart';
+void main() {
+  runApp(const MaterialApp(
+  // home: TibsHome(),
+    home: MyShop(
+    categoryId: '9283',
+    )));
+}
 
 class MyShop extends StatefulWidget {
   final String categoryId;
